@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fate Trip</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=YOUR_KAKAO_APP_KEY"></script>
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Fate Trip</h1>
+        <p>현재 N명의 사용자가 사용했어요!</p>
+    </header>
+
+    <div id="map"></div>
+
+    <div class="buttons">
+        <div class="button" id="randomNationButton">전국 랜덤 선택</div>
+        <div class="button" id="randomRegionButton">도 선택 후 랜덤 선택</div>
+    </div>
+
+    <div class="login-buttons">
+        <button class="kakao-login">카카오 로그인</button>
+        <button class="naver-login">네이버 로그인</button>
+    </div>
+
+    <footer>
+        with Kakao Map
+    </footer>
+</body>
+</html>
