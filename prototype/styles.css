@@ -88,3 +88,8 @@ footer {
     background-color: #03C75A;
     color: white;
 }
+
+#logo {
+    width: 300px; 
+    height: 150px; 
+}
