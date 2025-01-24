@@ -6,16 +6,34 @@ body {
     text-align: center;
 }
 
+/* 헤더 스타일 */
 header {
-    background-color: #f9f9f9;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+}
+
+header #logo {
+    height: 50px; /* 로고 크기 조정 */
+    margin-right: 15px;
 }
 
 header h1 {
-    margin: 0;
     font-size: 24px;
+    color: #2c3e50;
+    margin: 0;
+    flex-grow: 1; /* 로고와 텍스트 간 간격 유지 */
 }
+
+header p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
 
 #map {
     width: 600px;
